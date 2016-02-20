@@ -1,0 +1,28 @@
+{
+  "name": "Cispell Front End Components",
+  "authors": [
+    "Christian Pena <dr_khriz@hotmail.com>"
+  ],
+  "description": "Bootstrap-Sass, Jquery, Gulp, Bower",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "components",
+    "node_modules"
+  ],
+  "dependencies": {
+    "bootstrap-sass-official": "~3",
+    "modernizr": "~2",
+    "font-awesome": "^4.5.0"
+  },
+  "overrides": {
+    "modernizr": {
+      "main": "modernizr.js"
+    },
+    "font-awesome": {
+      "main": [
+        "fonts/**/*.{eot,svg,ttf,woff,woff2}"
+      ]
+    }
+  }
+}

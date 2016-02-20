@@ -1,1 +1,1 @@
-"# cispell" 
+# cispell
