@@ -2,8 +2,8 @@
 
 ## Requirements
 
-    [Node](https://nodejs.org)
-    [Golang](https://golang.org)
+   [Node](https://nodejs.org)
+   [Golang](https://golang.org)
     
 ## Project Setup
 

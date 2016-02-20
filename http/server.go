@@ -6,6 +6,9 @@ import (
 	mw "github.com/labstack/echo/middleware"
 	"html/template"
 	"io"
+	"path/filepath"
+	"os"
+	"strings"
 )
 
 type (
@@ -53,10 +56,24 @@ func InitServer() {
 	//-----------
 	// Templates
 	//-----------
+	// Cached templates
+	templates := template.New("template");
+	filepath.Walk("resources/views", func(path string, info os.FileInfo, err error) error {
+		if err != nil {
+			return err
+		}
+		if strings.HasSuffix(path, ".html") {
+			_, err := templates.ParseFiles(path)
+			if err != nil {
+				return err
+			}
+		}
+
+		return nil
+	})
 
 	t := &Template{
-		// Cached templates
-		templates: template.Must(template.ParseGlob("resources/views/*.html")),
+		templates: templates,
 	}
 	e.SetRenderer(t)
 
