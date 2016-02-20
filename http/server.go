@@ -66,5 +66,5 @@ func InitServer() {
 }
 
 func StartServer() {
-	App.Server.Run(":80")
+	App.Server.Run(":8080")
 }
