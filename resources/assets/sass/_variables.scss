@@ -1,7 +1,18 @@
 $primary: #149B9B;
+$green-light: #00FFE3;
+$blue: #00A8FF;
+$white: #fff;
+$light-black: #333;
+$black: #000;
 
 //Bootstrap custom variable
-$navbar-default-bg: #149B9B;
-$navbar-default-border: #149B9B;
+
+//nav
+$navbar-default-bg: #333;
+$navbar-default-border: #000;
 $navbar-default-brand-color: #fff;
 $navbar-default-link-color: #fff;
+$navbar-default-link-hover-color: #fff;
+
+//buttons
+$btn-primary-bg: $blue;
