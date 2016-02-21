@@ -2,8 +2,8 @@ package controllers
 
 import (
 	// "github.com/gorilla/sessions"
-	"github.com/labstack/echo"
 	"github.com/cispell/cispell/config"
+	"github.com/labstack/echo"
 	// "github.com/google/go-github/github"
 	"net/http"
 )

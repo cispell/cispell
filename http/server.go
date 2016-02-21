@@ -6,8 +6,8 @@ import (
 	mw "github.com/labstack/echo/middleware"
 	"html/template"
 	"io"
-	"path/filepath"
 	"os"
+	"path/filepath"
 	"strings"
 )
 
@@ -57,7 +57,7 @@ func InitServer() {
 	// Templates
 	//-----------
 	// Cached templates
-	templates := template.New("template");
+	templates := template.New("template")
 	filepath.Walk("resources/views", func(path string, info os.FileInfo, err error) error {
 		if err != nil {
 			return err

@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/cispell/cispell/http"
 	"github.com/cispell/cispell/config"
+	"github.com/cispell/cispell/http"
 )
 
 func main() {

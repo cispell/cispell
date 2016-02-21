@@ -1,10 +1,10 @@
 package config
 
 import (
-	"log"
 	"github.com/joho/godotenv"
 	"golang.org/x/oauth2"
 	githubOAuth "golang.org/x/oauth2/github"
+	"log"
 )
 
 var (
