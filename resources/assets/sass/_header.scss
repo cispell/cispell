@@ -1,0 +1,28 @@
+.navbar {
+  margin-bottom: 0;
+}
+
+.navbar-brand {
+  font-size: 36px;
+}
+
+.navbar-default {
+  padding: 20px 0;
+}
+
+.eyelogo {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+  background:
+          radial-gradient(circle at 32% 32%, white 13%, transparent 13%),
+          radial-gradient(circle at 41% 41%, white 11%, transparent 12%),
+          radial-gradient($light-black 27%, transparent 28%),
+          radial-gradient($blue 38%, transparent 39%),
+          radial-gradient($white 60%, transparent 61%),
+          linear-gradient($green-light, $blue);
+  border-radius: 30px;
+  position: relative;
+  top: -20px;
+  left: -10px;
+}

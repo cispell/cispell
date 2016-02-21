@@ -1,9 +1,18 @@
 @charset "UTF-8";
 
+//framworks and libs css
 @import "variables";
 @import "bootstrap-custom";
-<<<<<<< HEAD
-@import 'index';
-=======
 @import "font-awesome";
+
+// global css
+@import 'global';
+
+//pages css
 @import 'index';
+
+//app layout css
+@import 'footer';
+@import 'header';
+
+
