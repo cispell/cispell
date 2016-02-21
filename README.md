@@ -8,14 +8,16 @@
 ## Project Setup
 
 1. Terminal
-    npm install -g npm gulp bower
-    npm install
-    bower install
-    gulp watch
+    
+    `npm install -g npm gulp bower`
+    `npm install`
+    `bower install`
+    `gulp watch`
 
 2. Terminal
-    go get github.com/vladvelici/gin
-    gin -p "80" -a "8080" -e ".go" -e ".html"
+    
+    `go get github.com/vladvelici/gin`
+    `gin -p "80" -a "8080" -e ".go" -e ".html"`
     
 ### What is next?
 
