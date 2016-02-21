@@ -2,3 +2,4 @@ components
 node_modules
 gin-bin.exe
 .idea/workspace.xml
+.env
