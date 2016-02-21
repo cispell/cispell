@@ -20,7 +20,10 @@ gulp.task('css', () => {
     .pipe(sass.sync({
       outputStyle: 'compressed',
       precision: 10,
-      includePaths: ['components/bootstrap-sass-official/assets/stylesheets'],
+      includePaths: [
+        'components/bootstrap-sass-official/assets/stylesheets',
+        'components/font-awesome/scss',
+      ],
     }).on('error', sass.logError))
     .pipe(autoprefixer({ browsers: ['> 1%', 'last 2 versions', 'Firefox ESR'] }))
     .pipe(gulp.dest('public/css'))
