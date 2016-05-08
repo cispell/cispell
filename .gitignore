@@ -1,4 +1,6 @@
 components
 node_modules
 gin-bin.exe
+gin-bin.exe~
 .idea/workspace.xml
+.env
